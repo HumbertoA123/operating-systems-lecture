@@ -88,7 +88,7 @@ int help(char **args)
   printf("Built in commands:\n");
 
   for (i = 0; i < builtins_number(); i++) {
-    printf(" *%s\n", builtin_str[i]);
+    printf("*%s\n", builtin_str[i]);
   }
   return 1;
 }
