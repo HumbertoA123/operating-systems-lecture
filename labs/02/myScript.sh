@@ -1,4 +1,4 @@
-echo "b)"
+echo " b)"
 
 Documentation_count=$(find ./$1/Documentation -type f| wc -l)
 echo "# Documentation:" $Documentation_count
